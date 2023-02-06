@@ -25,7 +25,7 @@ class DotEnv
     {
         DeprecateHelper::hardThrow('DotEnv::init deprecated!');
 //        dd(getenv());
-        $rootDirectory = realpath(__DIR__ . '/../../../../../../../gate.vea');
+        $rootDirectory = realpath(__DIR__ . '/../../../../../..');
         $basePath = $rootDirectory;
 
         $bootstrap = new VlucasBootstrap($mode, $rootDirectory);
