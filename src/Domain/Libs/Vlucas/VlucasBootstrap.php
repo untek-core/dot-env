@@ -158,7 +158,7 @@ class VlucasBootstrap implements BootstrapInterface
                 $env[$contentName][$entry->getName()] = $entry->getValue()->get()->getChars();
             }
         }
-        $store = new StoreFile(__DIR__ . '/../../../../../../../../var/env.php');
+        $store = new StoreFile(__DIR__ . '/../../../../../../../var/env.php');
         $store->save($env);
     }
 
@@ -166,7 +166,7 @@ class VlucasBootstrap implements BootstrapInterface
     {
         ksort($env);
         file_put_contents(
-            __DIR__ . '/../../../../../../../../../var/' . $name . '_' . $this->mode . '.json',
+            __DIR__ . '/../../../../../../../var/' . $name . '_' . $this->mode . '.json',
             json_encode($env, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)
         );
     }
