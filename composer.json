@@ -10,7 +10,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "symfony/dotenv": "^4.4|^5.4",
+    "symfony/dotenv": "^4.4|^5.0|^6.0",
     "vlucas/phpdotenv": "v5.5.0"
   },
   "autoload": {
