@@ -10,7 +10,7 @@ use Dotenv\Store\StringStore;
 use Untek\Core\Code\Exceptions\NotFoundDependencyException;
 use Untek\Core\Code\Helpers\ComposerHelper;
 use Untek\Core\DotEnv\Domain\Interfaces\BootstrapInterface;
-use Untek\Lib\Components\Store\StoreFile;
+use Untek\Component\FormatAdapter\StoreFile;
 
 /**
  * Загрузчик переменных окружения

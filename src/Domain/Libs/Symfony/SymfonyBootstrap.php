@@ -14,8 +14,8 @@ use Untek\Core\DotEnv\Domain\Enums\DotEnvModeEnum;
 use Untek\Core\DotEnv\Domain\Interfaces\BootstrapInterface;
 use Untek\Core\FileSystem\Helpers\FilePathHelper;
 use Untek\Core\Pattern\Singleton\SingletonTrait;
-use Untek\Lib\Components\Store\Drivers\Php;
-use Untek\Lib\Components\Store\StoreFile;
+use Untek\Component\FormatAdapter\Drivers\Php;
+use Untek\Component\FormatAdapter\StoreFile;
 
 /**
  * Загрузчик переменных окружения
